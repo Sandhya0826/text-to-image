@@ -22,8 +22,8 @@ model = MinDalle(is_mega=True, is_reusable=True)
 # Commented out IPython magic to ensure Python compatibility.
 # %%time
 # 
-# text = "robots enjoying sunset in paris"
-# seed = 6
-# grid_size = 2
+text = "robots enjoying sunset in paris"
+ seed = 6
+ grid_size = 2
 # 
 # display(model.generate_image(text, seed, grid_size))
